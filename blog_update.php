@@ -6,6 +6,6 @@ $blogs = $_POST;
 
 $blog = new Blog();
 $blog->blogValidate($blogs);
-$blog->blogCreate($blogs);
+$blog->blogUpdate($blogs);
 
 ?>

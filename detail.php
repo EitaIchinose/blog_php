@@ -3,6 +3,7 @@
 require_once('blog.php');
 $blog = new Blog();
 $result = $blog->getById($id = $_GET['id']);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
